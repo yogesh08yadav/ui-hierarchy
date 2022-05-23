@@ -1,0 +1,36 @@
+.sidebar{
+    color: azure;
+    width: 25%;
+    
+}
+.rootSpan{
+    display: flex;
+    width: 250px;
+    padding: 5px;
+}
+
+span:hover{
+    background-color: #201E37;
+}
+
+.sidebar_span{
+   cursor: pointer;
+   font-size: medium;
+   font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

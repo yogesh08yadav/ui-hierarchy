@@ -1,0 +1,13 @@
+export const ADD_MEMBER = 'ADD_MEMBER'
+export const DEL_MEMBER = 'DEL_MEMBER'
+export const EDITED_DATA_FRONT = 'EDITED_DATA_FRONT'
+export const ADD_MEM_BACK = 'ADD_MEM_BACK'
+export const DEL_MEM_BACK = 'DEL_MEM_BACK'
+export const EDITED_DATA_BACK = 'EDITED_DATA_BACK'
+export const ADD_MEM_HR = 'ADD_MEM_HR'
+export const DEL_MEM_HR = 'DEL_MEM_HR'
+export const EDITED_DATA_HR = 'EDITED_DATA_HR'
+export const ADD_MEM_DESIGN = 'ADD_MEM_DESIGN'
+export const DEL_MEM_DESIGN = 'DEL_MEM_DESIGN'
+export const EDITED_DATA_DESIGN = 'EDITED_DATA_DESIGN'
+
