@@ -1,9 +1,9 @@
 {
+  "homepage": "https://yogesh08yadav.github.io/ui-hierarchy",
   "name": "sidebar",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "homepage": "https://yogesh08yadav.github.io/ui-hierarchy",
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
     "@mui/icons-material": "^5.8.0",
