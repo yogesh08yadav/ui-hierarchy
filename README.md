@@ -1,18 +1,68 @@
-# UI Hierarchy
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Basic understanding of the project
-- It shows the heirarchy of a company. CEO -> departments ->  Team -> Team Leader -> Team Member
-- Using '+' and '-' sign we can see the heirarchy moving from top to bottom
-- Under HR and Design department there is only one team.
-- Whereas Engineering department has two teams - Frontend team and Backend Team
-- When we click on the team member we would be able to see all the members of that team
+## Available Scripts
 
-## Functionality and actions
-- We can add any member to any of the team
-- If there are two team in one department they can be moved from a team to second one. Like under engineering a member from frontend can be moved to backend and vice versa.
-- We can remove a team member by clicking delete icon under actions
-- We can update the employee information using edit icon
-Note - Add, delete and editing information of the employee will be made on the data and the changes will be persisited as everything is stored in local storage
-- We can filter the employee on the basis of name, phone number and email
+In the project directory, you can run:
 
-Note - I was unable to to implement the feature to add a new team as it was increasing the complexity.
+### `npm start`
+
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
